@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	color: red;
+	font-size: 75%;
+}
+ h2{margin-top: 0;
+	color: black;
+    background-color: green;
+     position:absolute;
+        top: 0px;
+        right: 0px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        font-size: 25%;
+ 
+}
+p{
+	padding-top:auto;
+}
+.text,.tex,.te{
+	position: relative;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+	margin-right: auto;
+    margin-left: auto;
+
+}
+/*---------background for section title---------*/
+.Chicken{
+	background-color: brown;
+}
+.Beef{
+	background-color: red;
+}
+.Sushi{
+	background-color:yellow;
+}
+/*------------desktop and above---*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.text,.tex,.te{
+	display:inline-block;
+	width:30%;
+	margin:auto 15px;
+	padding: 5px;
+	float: left;
+	background-color: cyan;
+	border: 1px solid black;
+	padding:auto;
+	color:red;
+}
+}
+/*---------tablet responsive---------*/
+@media (min-width: 768px) and (max-width: 991px){
+	.text,.tex{
+	
+	display:inline-block;
+	width:49%;
+	margin:auto auto;
+	padding: 5px;
+	float: left;
+	background-color: cyan;
+	border: 1px solid black;
+	margin-top:13px;
+	padding:auto;
+	color:red;
+    flex-wrap: wrap;
+
+}
+.te{
+	display:inline-block;
+	width:100%;
+	margin:auto;
+	padding: 5px;
+	float: left;
+	background-color: cyan;
+	border: 1px solid black;
+	margin-top:13px;
+	padding:3px;
+	height: 100px;
+	color:blue;
+}
+}
+/*---------mobile responsive---*/
+@media (min-width:19px) and (max-width:767px) {
+.text,.tex,.te{
+	display:inline-block;
+	width:100%;
+	margin: 3px;
+	padding: 5px;
+	float: left;
+	background-color: cyan;
+	border: 1px solid black;
+	margin:13px;
+	padding:auto;
+	color:red;
+	box-sizing:border-box;
+}
+p{
+	box-sizing:border-box;
+	margin:auto auto;
+	overflow:auto;
+}
+}
