@@ -1,0 +1,61 @@
+
+#header-nav{
+  background-color:#a9a9a9;
+  border-radius: 0;
+  width:auto;
+  border:2px solid black;
+  color: black;
+
+}
+.navbar-brand h1{
+  background-color:none;
+  margin-top:auto;
+  padding-bottom:12px;
+  color: black;
+}
+.menu{
+text-align: center;
+color :black;
+}
+.height{
+  height:auto;
+  margin:15px 15px;
+  background-color:#C0C0C0;
+  text-align: center;
+  color: black;
+
+}
+#nav-list li{
+  font-size:55;
+  margin-top: 0px;
+  width:auto;
+  background:#ffffe0;
+  }
+#nav-list li:hover{
+  background: #e7e6e7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border:2px solid #000000;
+}
+ .navbar-header button.navbar-toggle {
+  margin-top:0px;
+  background:#ffffe0;
+}
+#myBtn {
+  position:fixed;
+  bottom:10px;
+  float:right;
+  right: 20.5%;
+  left: 77.25%;
+  max-width: 90px;
+  width: 100px;
+  font-size:12px;
+  border-color:none;
+  background-color:#e7e6e7;
+  padding:.5px;
+  border-radius:4px;
+  font-family:georgia, 'time new roman',times,serf;
+}
+#myBtn:hover{
+  background-color:#fafafa;
+}
